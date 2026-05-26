@@ -1,0 +1,64 @@
+ 🟢 Level 1 — Asaan
+Q1 → Ye array banao aur teesra element print karo:
+["Apple", "Mango", "Banana", "Orange"]
+Q2 → Is array ki length nikalo:
+jsconst nums = [10, 20, 30, 40, 50];
+Q3 → Is array mein "Grapes" add karo end mein:
+jsconst fruits = ["Apple", "Mango"];
+Q4 → Is array ka pehla aur aakhri element print karo:
+jsconst colors = ["Red", "Green", "Blue", "Yellow"];
+
+🟡 Level 2 — Thoda Mushkil
+Q5 → map use karke har number ko 3 se multiply karo:
+jsconst nums = [2, 4, 6, 8];
+// Answer: [6, 12, 18, 24]
+Q6 → filter use karke sirf 50 se zyada wale nikalo:
+jsconst marks = [45, 78, 32, 91, 55];
+// Answer: [78, 91, 55]
+Q7 → forEach use karke har naam ko print karo:
+jsconst names = ["Ali", "Sara", "Zain", "Hina"]; 
+// Ali
+// Sara
+// Zain
+// Hina
+Q8 → find use karke pehla even number dhundho:
+jsconst nums = [3, 7, 2, 8, 5];
+// Answer: 2
+
+🟠 Level 3 — Mushkil
+Q9 → reduce use karke sab ka sum nikalo:
+jsconst nums = [5, 10, 15, 20];
+// Answer: 50
+Q10 → some use karke check karo kya koi negative number hai:
+jsconst nums = [3, 7, -2, 8, 5];
+// Answer: true
+Q11 → every use karke check karo kya sab numbers even hain:
+jsconst nums = [2, 4, 6, 8];
+// Answer: true
+Q12 → map aur filter saath use karo:
+jsconst nums = [1, 2, 3, 4, 5];
+// Pehle sirf even nikalo
+// Phir unhe double karo
+// Answer: [4, 8]
+
+🔴 Level 4 — Advanced
+Q13 → Is array of objects se sirf pass students ke naam nikalo filter aur map se:
+jsconst students = [
+  { naam: "Ali",  marks: 45 },
+  { naam: "Sara", marks: 78 },
+  { naam: "Zain", marks: 33 },
+  { naam: "Hina", marks: 91 },
+];
+// 50 se zyada = pass
+// Answer: ["Sara", "Hina"]
+Q14 → reduce use karke sabse chota number nikalo:
+jsconst nums = [8, 3, 11, 1, 9];
+// Answer: 1
+Q15 → reduce use karke count karo kitne log 18 se zyada umar ke hain:
+jsconst users = [
+  { naam: "Ali",  umar: 15 },
+  { naam: "Sara", umar: 22 },
+  { naam: "Zain", umar: 19 },
+  { naam: "Hina", umar: 14 },
+];
+// Answer: 2 
